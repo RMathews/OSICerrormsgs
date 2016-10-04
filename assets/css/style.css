@@ -3,34 +3,44 @@ html {
 }
 
 header {
-    background-color: #040508;
-    border-bottom: 5px solid #a51b1b;
+    background-color: #e2e2e2;
+    border-bottom: 5px solid #c43723;
     margin-bottom: 20px;
 }
 header .navbar {
     margin-bottom: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 header .navbar-inverse {
     background-color: transparent;
     border: 0;
 }
 header #logo {
-    height: 50px;
-    width: 159px;
+    height:  15%;
+    width: 15%;
 }
 
 #input {
-    padding-bottom: 5% ;
-    padding-top: 5%;
+    padding-bottom: 4% ;
+    padding-top: 2%;
     font-size: small;
     font-family: "Trebuchet MS";
 }
 
-.tab {
-    font-size: small;
+h3 {
     font-family: "Trebuchet MS";
+    color: #5e5e5e
+}
+
+.tab {
+    font-size: 14px;
+    font-family: "Trebuchet MS";
+}
+
+.badge {
+    background-color: #e2e2e2;
+    color: #337ab7;
 }
 
 table {
@@ -40,6 +50,19 @@ table {
 
 table th {
     text-align: left;
-    /*width: 75px;*/
+}
+
+.no-result {
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+    color: #337ab7;
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.no-result-span {
+    text-align: center;
+    padding: 5px;
 }
 
